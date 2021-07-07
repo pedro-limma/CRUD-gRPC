@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package Northwind;
+
+option csharp_namespace = "GrpcService1";
+
+service EquipamentCRUD {
+  rpc SelectAll (Empty) returns (Equipaments);
+  rpc SelectByID (EquipamentFilter) returns (Equipament);
+  rpc Insert (Equipament) returns (Empty);
+  rpc Delete (Equipament) returns (Empty);
+  rpc Update (EquipamentFilter) returns (Empty);
+}
+
+message Empty {
+
+}
+
+message Equipament {
+  int32 EquipamentID = 1;
+  string Name = 2;
+  string Tipo = 3;
+}
+
+message Equipaments {
+  repeated Equipament items = 1;
+}
+
+message EquipamentFilter {
+  int32 EquipamentID = 1;
+}
