@@ -7,6 +7,6 @@ namespace GrpcCRUD.DataAccess
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int EquipamentID { get; set; }
         public string Name { get; set; }
-        public string Tipo { get; set; }   
+        public string Type { get; set; }   
     }
 }

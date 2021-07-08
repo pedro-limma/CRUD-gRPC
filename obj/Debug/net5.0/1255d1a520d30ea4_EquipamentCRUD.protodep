@@ -1,0 +1,2 @@
+obj/Debug/net5.0/Protos/EquipamentCRUD.cs \
+obj/Debug/net5.0/Protos/EquipamentCRUDGrpc.cs: Protos/EquipamentCRUD.proto

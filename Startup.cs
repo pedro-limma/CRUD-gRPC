@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using GrpcCRUD.Services;
 
 namespace GrpcCRUD
 {
@@ -38,7 +39,7 @@ namespace GrpcCRUD
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<Equipament>();
+                endpoints.MapGrpcService<EquipamentCRUDService>();
 
                 endpoints.MapGet("/", async context =>
                 {
