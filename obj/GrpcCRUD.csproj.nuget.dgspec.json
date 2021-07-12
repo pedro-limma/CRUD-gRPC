@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/pedro-lima/projects/GrpcCRUD/GrpcCRUD.csproj": {}
+    "/home/pedro-lima/projects/gRPC_Project/GrpcCRUD/GrpcCRUD.csproj": {}
   },
   "projects": {
-    "/home/pedro-lima/projects/GrpcCRUD/GrpcCRUD.csproj": {
+    "/home/pedro-lima/projects/gRPC_Project/GrpcCRUD/GrpcCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pedro-lima/projects/GrpcCRUD/GrpcCRUD.csproj",
+        "projectUniqueName": "/home/pedro-lima/projects/gRPC_Project/GrpcCRUD/GrpcCRUD.csproj",
         "projectName": "GrpcCRUD",
-        "projectPath": "/home/pedro-lima/projects/GrpcCRUD/GrpcCRUD.csproj",
+        "projectPath": "/home/pedro-lima/projects/gRPC_Project/GrpcCRUD/GrpcCRUD.csproj",
         "packagesPath": "/home/pedro-lima/.nuget/packages/",
-        "outputPath": "/home/pedro-lima/projects/GrpcCRUD/obj/",
+        "outputPath": "/home/pedro-lima/projects/gRPC_Project/GrpcCRUD/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/pedro-lima/.nuget/NuGet/NuGet.Config"
